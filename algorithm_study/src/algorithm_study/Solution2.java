@@ -10,9 +10,9 @@ public class Solution2 {
 	      int[] std2 = {2,1,2,3,2,4,2,5};
 	      int[] std3 = {3,3,1,1,2,2,4,4,5,5};
 	        
-	      Integer std1Score = 0;
-	      Integer std2Score = 0;
-	      Integer std3Score = 0;
+	      int std1Score = 0;
+	      int std2Score = 0;
+	      int std3Score = 0;
 
 	        for(int i=0;i<answers.length;i++) {
 	        	
@@ -108,8 +108,8 @@ public class Solution2 {
 		
 		Solution2 sol = new Solution2();
 		
-		//int[] answers = {1,2,3,4,5};
-		int[] answers = {1,3,2,4,2};
+		int[] answers = {1,2,3,4,5,4,1,4,3,5,3,5,2,4,3,2,4,2,3,4,2,3,2,2};
+		//int[] answers = {1,3,2,4,2};
 		
 		int[] result = sol.solution(answers);
 		

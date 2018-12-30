@@ -16,21 +16,21 @@ public class Solution1 {
      	} else {
      		map.put(str, map.get(str)+1);
      	}
-		}
+	}
 
      for (String str2 : participant) {
-			if(!map.containsKey(str2)) {		
-				answer = str2;
+		if(!map.containsKey(str2)) {		
+			return str2;
 
+		} else {
+			if(map.get(str2) == 0) {
+				return str2;
+				
 			} else {
-				if(map.get(str2) == 0) {
-					answer = str2;
-					
-				} else {
-					map.put(str2, map.get(str2)-1);
-				}
+				map.put(str2, map.get(str2)-1);
 			}
 		}
+	}
      
      return answer;
  }

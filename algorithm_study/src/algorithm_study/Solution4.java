@@ -10,8 +10,10 @@ public class Solution4 {
 	        }else{
 	        	 answer = s.substring((s.length()/2),(s.length()/2)+1);
 	        }
-	      
 	      return answer;
+	      
+	      //한줄 코드
+	      //return s.substring((s.length()-1) / 2, s.length()/2 + 1);    
 	  }
 
 	public static void main(String[] args) {
