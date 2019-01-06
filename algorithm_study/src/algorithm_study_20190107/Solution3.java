@@ -27,11 +27,11 @@ public class Solution3 {
 	public static void main(String[] args) {
 		Solution3 sol = new Solution3();
 		
-		String[] strings = {"sun", "bed", "car"};
-		//String[] strings = {"abce", "abcd", "cdx"};
+		//String[] strings = {"sun", "bed", "car"};
+		String[] strings = {"abce", "abcd", "cdx"};
 		
 		
-		String[] result = sol.solution(strings, 1);
+		String[] result = sol.solution(strings, 2);
 		
 		for(String a : result) {
 			System.out.println(a);

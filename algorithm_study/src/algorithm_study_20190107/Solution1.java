@@ -35,10 +35,10 @@ public class Solution1 {
 	public static void main(String[] args) {
 		Solution1 sol = new Solution1();
 		
-		//int[] arr = {5,9,7,10};
+		int[] arr = {5,9,7,10};
 		//int[] arr = {2,36,1,3};
-		int[] arr = {3,2,6};
-		int[] result = sol.solution(arr, 10);
+		//int[] arr = {3,2,6};
+		int[] result = sol.solution(arr, 5);
 		
 		for(int a : result) {
 			System.out.println(a);

@@ -18,6 +18,7 @@ public class Solution1 {
      	}
 	}
 
+     
      for (String str2 : participant) {
 		if(!map.containsKey(str2)) {		
 			return str2;
