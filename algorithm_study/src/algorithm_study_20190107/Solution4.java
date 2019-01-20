@@ -21,7 +21,9 @@ public class Solution4 {
 	        if(p != y) {
 	        	answer = false;
 	        }
-
+	        
+	        //s = s.toUpperCase();
+	        //return s.chars().filter( e -> 'P'== e).count() == s.chars().filter( e -> 'Y'== e).count();
 	        return answer;
 	    }
 	 
