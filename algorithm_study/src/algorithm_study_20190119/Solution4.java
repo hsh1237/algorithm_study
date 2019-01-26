@@ -5,9 +5,9 @@ public class Solution4 {
 	
 	public String solution(String s) {
 	     String answer = "";
-	      
-	     String[] arr = s.split(" ");
 	     
+	     String[] arr = s.split(" ");
+	     System.out.println(arr.length);
 	     for(int i=0; i<arr.length; i++) {
 	    	 for(int j=0; j<arr[i].length();j++) {
 	    		 if(j % 2 == 0)  {
@@ -31,7 +31,7 @@ public class Solution4 {
 	public static void main(String[] args) {
 		
 		Solution4 sol = new Solution4();
-		System.out.println(sol.solution("try hello world"));
+		System.out.println(sol.solution("try    hello    world   "));
 
 
 	}

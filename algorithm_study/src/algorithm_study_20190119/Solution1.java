@@ -13,7 +13,7 @@ public class Solution1 {
 		
 		Solution1 sol = new Solution1();
 		System.out.println(sol.solution("-1234"));
-		System.out.println(sol.solution("1234"));
+		System.out.println(sol.solution("1453524244"));
 
 	}
 

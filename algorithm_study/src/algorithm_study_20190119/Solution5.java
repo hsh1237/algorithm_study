@@ -10,8 +10,7 @@ public class Solution5 {
         for(String s : arr) {
         	answer += Integer.parseInt(s);
         }
-        
-        
+              
         /*while ( n!=0 ) {
         	answer += n % 10;
         	n /= 10;
