@@ -20,7 +20,7 @@ public class Solution4 {
 	    		 list.add(n);
 	    	 }
 	     }
-	     
+	    
 	     if(list.isEmpty()) {
 	    	 list.add(-1);
 	     }
@@ -35,8 +35,8 @@ public class Solution4 {
 	public static void main(String[] args) {
 		Solution4 sol = new Solution4();
 		
-		//int[] arr = {4,3,2,1};
-		int[] arr = {10};
+		int[] arr = {4,3,2,1};
+		//int[] arr = {10};
 		int[] result = sol.solution(arr);
 		for(int a : result) {
 			System.out.println(a);			

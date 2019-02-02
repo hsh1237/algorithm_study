@@ -7,8 +7,11 @@ public class Solution1 {
 	public int[] solution(long n) {
 	    
 	    String[] arr = String.valueOf(n).split("");
+	    
 	    int[] answer = new int[arr.length];
+	    
 	    int lastNum = arr.length;
+	    
 	    for(int i=0; i<arr.length;i++) {
 	    	answer[i] = Integer.parseInt(arr[lastNum-1]);
 	    	System.out.println(answer[i]);

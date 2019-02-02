@@ -9,6 +9,7 @@ public class Solution2 {
 
 	public long solution(long n) {
 	      long answer = 0;
+	      
 	      String str = "";
 	      
 	      String[] arr = String.valueOf(n).split("");
@@ -20,6 +21,7 @@ public class Solution2 {
 		    	 str += a.toString();
 		  }
 	      answer = Long.parseLong(str);
+	      
 	      return answer;
 	}
 	public static void main(String[] args) {
