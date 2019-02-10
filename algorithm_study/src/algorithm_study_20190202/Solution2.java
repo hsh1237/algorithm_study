@@ -4,8 +4,9 @@ package algorithm_study_20190202;
 public class Solution2 {
 	
 	 public int solution(long num) {
-	      int answer = 0;
+
 	      int cnt = 0;
+	      
 	      while(num > 1) {
 	    	  if(num % 2 == 0) {
 	    		  num = num/2;
@@ -14,13 +15,13 @@ public class Solution2 {
 	    	  }
 	    	  cnt++;
 	    	  
-	    	  if(cnt == 500) {
+	    	  if(cnt > 500) {
 	    		  cnt = -1;
 	    		  break;
 	    	  }
 	      }
-	      answer = cnt;
-	      return answer;
+	      return cnt;
+	   
 	}
 
 	public static void main(String[] args) {

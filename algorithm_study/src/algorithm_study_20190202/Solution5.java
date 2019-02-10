@@ -22,7 +22,7 @@ public class Solution5 {
 	public static void main(String[] args) {
 		Solution5 sol = new Solution5();
 		
-		System.out.println(sol.solution("01033334444"));
+		System.out.println(sol.solution("0103333 4444"));
 
 	}
 
