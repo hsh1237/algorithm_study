@@ -20,6 +20,7 @@ public class Solution2 {
 		
 		if(depth == numbers.length) {
 			int sum = 0;
+			System.out.print("result : ");
 			for(int num : numbers) {
 				System.out.print(num + " ");
 				sum += num;
@@ -31,20 +32,18 @@ public class Solution2 {
 			if(sum == target) {
 				answer++;				
 				System.out.println();
-			}else {
-				return;
 			}
 		}else {
 			System.out.println(" + + ");
 			System.out.println("DEPTH : " + depth + " : " + numbers[depth]);
-			numbers[depth] *= 1;
+			numbers[depth] = 1;
 			dfs(target,numbers,depth+1);
 			
 			System.out.println();
 			
 			System.out.println(" - - ");
 			System.out.println("DEPTH : " + depth + " : " + numbers[depth]);
-			numbers[depth] *= -1;
+			numbers[depth] = -1;
 			dfs(target,numbers,depth+1);
 		}
 	}
