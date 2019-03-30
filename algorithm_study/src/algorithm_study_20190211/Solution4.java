@@ -14,6 +14,8 @@ public class Solution4 {
 	    	  if(budget - a >= 0 ) {
 	    		  budget -= a;
 	    		  answer++;
+	    	  }else {
+	    		  break;
 	    	  }
 	      }
 	      
