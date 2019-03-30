@@ -33,17 +33,18 @@ public class Solution2 {
 				answer++;				
 				System.out.println();
 			}
+			
 		}else {
 			System.out.println(" + + ");
 			System.out.println("DEPTH : " + depth + " : " + numbers[depth]);
-			numbers[depth] = 1;
+			numbers[depth] *= 1;
 			dfs(target,numbers,depth+1);
 			
 			System.out.println();
 			
 			System.out.println(" - - ");
 			System.out.println("DEPTH : " + depth + " : " + numbers[depth]);
-			numbers[depth] = -1;
+			numbers[depth] *= -1;
 			dfs(target,numbers,depth+1);
 		}
 	}
