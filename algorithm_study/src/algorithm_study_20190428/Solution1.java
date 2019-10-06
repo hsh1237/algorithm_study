@@ -1,5 +1,5 @@
 package algorithm_study_20190428;
-
+//숫자의 표현
 public class Solution1 {
 
 	public int solution(int n) {
@@ -35,7 +35,7 @@ public class Solution1 {
 	public static void main(String[] args) {
 		
 		Solution1 sol = new Solution1();
-		System.out.println(sol.solution(20));
+		System.out.println(sol.solution(5));
 	}
 
 }

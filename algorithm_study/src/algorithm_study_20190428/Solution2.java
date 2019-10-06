@@ -2,7 +2,7 @@ package algorithm_study_20190428;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
+//최대값과 최솟값
 public class Solution2 {
 	public String solution(String s) {
 	      String answer = "";

@@ -9,7 +9,6 @@ public class Solution4 {
 		}else {			
 			return Fibonacci(n-1) +  Fibonacci(n-2);
 		}
-
 	}
 	
 	public int dynamicFibonacci(int n) {
@@ -19,14 +18,15 @@ public class Solution4 {
 		nums[1] = 1;
 		nums[2] = 1;
   
+		
         if(n <= 2) {
         	return 1;        	
         }
    
         for(int i=3; i <=n; i++) {
         	nums[i] = (nums[i-1] + nums[i-2]) % 1234567;
+        	System.out.println(nums[n]);
         }
-        
         return nums[n];
     }
 	
